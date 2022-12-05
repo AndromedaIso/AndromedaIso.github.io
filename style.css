@@ -1,0 +1,540 @@
+@import url(fonts.css);
+@import url(reset.css);
+
+a:link , a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+body > nav{
+    padding: 20px 60px;
+    display: flex;
+}
+nav p{
+    font-family: Plus Jakarta Display Regular;
+    font-size: 16pt;
+    color: white;
+    letter-spacing: 2pt;
+}
+
+.landing{
+    background-image: url("adobe xd/bg 1.png");
+    min-height: 125vh;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 2em;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-bottom: 5em;
+}
+.navbar > ul {
+    display: flex;
+    gap: 2em;
+}
+
+.navbar > ul > a {
+    transition: 300ms;
+}
+.navbar > ul > a:hover{
+    box-shadow: 0px 3px 0px 0px;
+}
+.name{
+    left: 0;
+    font-family: playfair display semibold,serif;
+    font-size: 32pt;
+    display: flex;
+    align-items: center;
+    padding-right: 144px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    margin-right: -66px;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+    font-family: plus jakarta display regular, sans-serif;
+}
+
+.logo{
+    padding-top: 15px;
+}
+.logo img{
+    width: 100%;
+    height: auto;
+}
+
+.section-1{
+    display: flex;
+    width: 100%;
+
+}
+
+.mid{
+    width: 90%;
+    font-size: 1rem;
+   
+
+}
+
+.left{
+    font-family: playfair display medium, serif;
+    font-size: 1.5em;
+    writing-mode: vertical-lr;
+    transform: scale(-1, -1);
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+
+}
+.left p::before{
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    height: 120px;
+    width: 9px;
+    bottom: 180px;
+    right: 27px;
+}
+
+.midtop{
+    display: flex;
+
+}
+.midtop img{
+    width: 50%;
+    height: auto;
+}
+.txt1{
+    margin-left: 30;
+}
+.txt1 p:nth-child(1){
+    font-family: plus jakarta display regular, sans-serif;
+    font-size: 1em;
+    color: #FF9F1C;
+    margin-left: .5em;
+    margin-top: 140px;
+}
+.txt1 p:nth-child(2){
+    font-family: playfair display semibold, serif;
+    font-size: 64pt;
+    color: black;
+
+    letter-spacing: 3pt;
+}
+
+.midbot{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.midbot img{
+    height: auto;
+    width: 50%;
+
+}
+.txt2 p:nth-child(1){
+    font-family: playfair display semibold, serif;
+    font-size: 64pt;
+    padding-right: 50;
+    padding-top: 30;
+}
+.txt2 p:nth-child(2){
+    font-family: plus jakarta display regular, sans-serif;
+    font-size: 14pt;
+    color: #FF9F1C;
+    padding-top: 15;
+    padding-left: 15;
+}
+
+/* PANAH LANDING PAGE */
+.arrow img{
+    height: auto;
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+
+
+/* GARIS KANAN */
+.right{
+    font-family: playfair display medium, serif;
+    font-size: 1.5em;
+    writing-mode: vertical-lr;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+}
+.right p::before{
+    position: absolute;
+    content: "";
+    border-left: 2px solid black;
+    height: 120px;
+    width: 9px;
+    bottom: 55px;
+    right: 95px;
+}
+
+
+
+/* FOTO MUKA */
+.pfp img{
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    left: 0; right: 0;
+    position: relative;
+    z-index: -10; top: -150;
+}
+
+/* MENUBOX */
+.menubox{
+    background-image: url(media/menu\ box\ pfp.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 25%;
+    height: 0%;
+    padding-top: 66.64%; /* (img-height / img-width * container-width) */
+    /* (853 / 1280 * 100) */
+    margin-top: -650px;
+    margin-left: 50;
+}
+
+
+/* BG KONTEN */
+.content{
+    background-image: url("media/bg.svg");
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin: auto;
+}
+
+
+/* NAV KONTEN */
+.contentnav div:nth-child(1){
+    font-family: Playfair Display Medium, serif;
+    font-size: 50pt;
+    letter-spacing: 3;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.contentnav div:nth-child(2){
+    font-family: Plus Jakarta Display Regular, sans-serif;
+    font-size: 12pt;
+    letter-spacing: 2;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding-top: 20;
+    padding-bottom: 75;
+}
+
+
+/* FOTO KARTU */
+.card{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card> img{
+    width: 90%;
+    height: auto;
+}
+.imgtitle{
+    font-family: playfair display medium, serif;
+    font-size: 30pt;
+    color: black;
+    padding-top: 20;
+    padding-bottom: 20;
+}
+
+.info-about{
+    width: 50%;
+    padding-right: 226px;
+}
+
+
+/*section-works*/
+
+
+/* TRIO ART */
+.trio{
+    display: grid;
+    margin-top: 2em;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2em;
+    width: 90%;
+}
+
+.grid-row-span-2{
+    grid-row: span 2;
+}
+
+/* FOTO SUNSET */
+.sunset{
+
+    justify-content: flex-start;
+}
+.sunset img:nth-child(1){
+    width: 100%;
+    height: 90%;
+}
+
+/* TAHUN BARU */
+.newyears{
+
+    width: fit-content;
+
+}
+.newyears > div> .imgtitle{
+   white-space: nowrap;
+    text-align: right;
+    margin-left: 159;
+}
+.newyears{
+    justify-content: flex-end;
+}
+.newyears img:nth-child(1){
+    width: 100%;
+    height: auto;
+}
+.newyears > .imgtitle{
+    text-align: right;
+
+}
+.newyears > div > .imgtitle{
+    padding-bottom: 0;
+    margin-left: 340;
+}
+
+/* LOGO FNB */
+
+
+.fnblogo> img{
+    width: 100%;
+    height: auto;
+}
+
+.fnblogo > div{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.fnblogo > div > .abthis{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.singular-1{
+    width: 90%;
+    margin-top: 5em;
+
+}
+
+.singular-1 > img{
+    width: 100%;
+    height: auto;
+}
+
+.singular-1 > .info{
+    display: flex;
+    gap: 3em;
+    
+}
+
+
+.end{
+    margin-top: 5em;
+    width: 85%;
+    border: 1px solid white;
+    color: white;
+    font-family: Poppins;
+    padding: 1.8em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    margin: auto;
+    margin-top: 100;
+    margin-bottom: 5em;
+}
+
+.end > .first-name {
+
+    font: 700;
+    font-family: Playfair Display SemiBold;
+    font-size: 6em;
+}
+
+.end > .last-name {
+
+    font: 700;
+    font-family: Playfair Display SemiBold;
+    font-size: 6em;
+    text-align: center;
+    width: 80%;
+}
+
+.end > p{
+    line-height: 1.6;
+    width: 50%;
+    font-size: 1em;
+}
+
+.end > div >svg{
+    fill: white;
+}
+.end >.behance, .end>.instagram {
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    gap: 2em;
+    text-decoration: underline;
+}
+
+.end > div > span > a:link,
+.end > div > span > a:visited{
+    color: white;
+} 
+
+@media (max-width:1100px) {
+    .nav{
+        font-size: .4rem;
+            }
+    .navbar{
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .section-1{
+        font-size: .6rem;
+        margin-bottom: 5em;
+    }
+
+    .txt1 p:nth-child(2){
+        font-size: 4rem;
+    } 
+    .txt1 p:nth-child(1){
+        margin-top: .4em;
+        padding-left: .2em;
+    }
+
+    .txt2 p:nth-child(1){
+        font-size: 4rem;
+    }
+    .txt2 p:nth-child(2){
+        padding: .4em;
+    }
+  
+}
+
+@media (max-width:900px) {
+.arrow{
+    scale: 0;
+}
+}
+
+@media (max-width:700px) {
+    .nav{
+        font-size: .4rem;
+            }
+    .navbar{
+        font-size: .9rem;
+        font-weight: 600;
+    }
+
+    .section-1{
+        font-size: .6rem;
+        margin-bottom: 5em;
+    }
+    .mid > .midbot{
+        flex-direction: column;
+
+
+
+    }
+    .mid > .midtop{
+        flex-direction: column;
+        width: 100%;
+        font-size: 1em;
+    }
+
+    .mid>.midtop>img{
+        width: 100%;
+        height: auto;
+    }
+    .mid>.midbot>img{
+        width: 100%;
+        height: auto;
+    }
+    .txt1 p:nth-child(2){
+        font-size: 4rem;
+    } 
+    .txt1 p:nth-child(1){
+        margin-top: .4em;
+        padding-left: .2em;
+    }
+
+    .txt2 p:nth-child(1){
+        font-size: 4rem;
+    }
+    .txt2 p:nth-child(2){
+        padding: .4em;
+    }
+  
+
+    .trio{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 90%;
+    }
+   .menubox{
+    scale: 0;
+   }
+  
+   .card>img{
+    width: 90%;
+   }
+
+   .end{
+    font-size:.8rem ;
+}
+
+.end > p {
+    width: 100%;
+    font-size: 1rem;
+}
+}
