@@ -23,14 +23,14 @@ body > nav{
     display: flex;
 }
 nav p{
-    font-family: Plus Jakarta Display Regular;
+    font-family: Plus Jakarta Display Regular, sans-serif;
     font-size: 16pt;
     color: white;
     letter-spacing: 2pt;
 }
 
 .landing{
-    background-image: url("adobe xd/bg 1.png");
+    background-image: url("ADOBE XD/bg 1.png");
     min-height: 125vh;
     width: 90%;
     margin: auto;
@@ -57,7 +57,7 @@ nav p{
 }
 .name{
     left: 0;
-    font-family: playfair display semibold,serif;
+    font-family: Playfair Display Semibold,serif;
     font-size: 32pt;
     display: flex;
     align-items: center;
@@ -72,7 +72,7 @@ nav p{
 .navbar a{
     text-decoration: none;
     color: black;
-    font-family: plus jakarta display regular, sans-serif;
+    font-family: Plus Jakarta Display Regular, sans-serif;
 }
 
 .logo{
@@ -97,7 +97,7 @@ nav p{
 }
 
 .left{
-    font-family: playfair display medium, serif;
+    font-family: Playfair Display Medium, serif;
     font-size: 1.5em;
     writing-mode: vertical-lr;
     transform: scale(-1, -1);
@@ -128,14 +128,14 @@ nav p{
     margin-left: 30;
 }
 .txt1 p:nth-child(1){
-    font-family: plus jakarta display regular, sans-serif;
+    font-family: Plus Jakarta Display Regular, sans-serif;
     font-size: 1em;
     color: #FF9F1C;
     margin-left: .5em;
     margin-top: 140px;
 }
 .txt1 p:nth-child(2){
-    font-family: playfair display semibold, serif;
+    font-family: Playfair Display Semibold, serif;
     font-size: 64pt;
     color: black;
 
@@ -153,13 +153,13 @@ nav p{
 
 }
 .txt2 p:nth-child(1){
-    font-family: playfair display semibold, serif;
+    font-family: Playfair Display Semibold, serif;
     font-size: 64pt;
     padding-right: 50;
     padding-top: 30;
 }
 .txt2 p:nth-child(2){
-    font-family: plus jakarta display regular, sans-serif;
+    font-family: Plus Jakarta Display Regular, sans-serif;
     font-size: 14pt;
     color: #FF9F1C;
     padding-top: 15;
@@ -180,7 +180,7 @@ nav p{
 
 /* GARIS KANAN */
 .right{
-    font-family: playfair display medium, serif;
+    font-family: Playfair Display Medium, serif;
     font-size: 1.5em;
     writing-mode: vertical-lr;
     display: flex;
@@ -211,7 +211,7 @@ nav p{
 
 /* MENUBOX */
 .menubox{
-    background-image: url(media/menu\ box\ pfp.svg);
+    background-image: url(Media/menu\ box\ pfp.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 25%;
@@ -225,7 +225,7 @@ nav p{
 
 /* BG KONTEN */
 .content{
-    background-image: url("media/bg.svg");
+    background-image: url("Media/bg.svg");
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -272,7 +272,7 @@ nav p{
     height: auto;
 }
 .imgtitle{
-    font-family: playfair display medium, serif;
+    font-family: Playfair Display Medium, serif;
     font-size: 30pt;
     color: black;
     padding-top: 20;
